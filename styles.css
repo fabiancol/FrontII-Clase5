@@ -10,6 +10,11 @@ body {
   background-color: rgb(219, 219, 219);
 }
 
+#img{
+  width: 25px;
+  height: 25px;
+}
+
 h1 {
   padding: .5em 1em;
   background-color: white;
@@ -66,14 +71,21 @@ poder resolver el ejercicio */
 
 
 /* las modificaciones a los items */
-.dark .item
+.dark .item 
 {
   background-color: rgb(19, 19, 19);
   border-color: black;
 }
 
 /* las modificaciones a los textos de los items y los titulos de ellos */
-.dark .item p
+.dark .item p 
 {
   color: rgb(230, 230, 230);
+}
+
+.dark h1 {
+  padding: .5em 1em;
+  background-color: black;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  color: whitesmoke;
 }
